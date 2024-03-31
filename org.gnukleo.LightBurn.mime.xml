@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/lightburn">
+    <comment>Lightburn Project File</comment>
+    <sub-class-of type="application/xml"/>
+    <magic priority="60">
+      <match type="string" value="LightBurnProject" offset="0:256"/>
+    </magic>
+    <glob pattern="*.lbrn2"/>
+    <glob pattern="*.lbrn"/>
+    <generic-icon name="org.gnukleo.LightBurn.mime"/>
+  </mime-type>
+</mime-info>
