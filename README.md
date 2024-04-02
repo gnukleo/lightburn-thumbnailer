@@ -14,7 +14,11 @@ show thumbnailers for lightburn files
    ```
    chmod +x install_LightBurn_Thumbnailer.sh
    ```
-3. done!
+3. execute intaller with:
+   ```
+   ./install_LightBurn_Thumbnailer.sh
+   ```
+5. done!
 
 # manual installation
 2. create directory for thumbnailers if not exist and copy the thumbnailer entry
